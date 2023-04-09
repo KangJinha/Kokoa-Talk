@@ -10,6 +10,7 @@
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
 @import "components/music.css";
+@import "components/music-detail.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music - Ghibli</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>13:53</span>
+      </div>
+      <div class="status-bar__column">
+        <span>95%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Music</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+    <div class="music-controller-body">
+      <div class="music-controller">
+        <div class="screen-music__header">
+          <div class="screen-music__header__icons">
+            <a href="music.html"><span><i class="fa-solid fa-arrow-left fa-lg"></i></span></a>
+            <span><i class="fa-solid fa-ellipsis-vertical la-2x"></i></span>
+          </div>
+        </div>
+        <div class="music-detail__image-box"></div>
+        <div class="music-info">
+          <h1>November</h1>
+          <p>Tyler, The Creator</p>
+        </div>
+        <div class="progress-time">
+          <span>1:56</span><span>2:21</span>
+        </div>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+        <div class="music-detail-bar__body">
+          <div class="music-detail-bar">
+            <div class="music-detail-bar__status">
+              <i style="color: rgb(187, 191, 195);" class="fa-solid fa-repeat fa-lg"></i>
+              <i class="fa-solid fa-backward-step fa-2x"></i>
+              <i class="fa-solid fa-circle-play fa-5x"></i>
+              <i class="fa-solid fa-forward-step fa-2x"></i>
+              <i style="color: rgb(187, 191, 195);" class="fa-solid fa-shuffle fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big T^T</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/8f05e1d322.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
