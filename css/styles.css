@@ -21,12 +21,7 @@
 @font-face {
     font-family: 'GangwonEduSaeeum_OTFMediumA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
-/* css적용안되는오류
-크롬 개발자모드에서 css가 적용이안되는것 확인하고
-styles.css파일로다시와서 세미클론이 없는것 확인 */
 body {
     font-family: 'GangwonEduSaeeum_OTFMediumA';
     color: #2e363e;
