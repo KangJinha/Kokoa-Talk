@@ -1,5 +1,5 @@
-@import "reset.css";
-@import "variables.css";
+@import "./reset.css";
+@import "./variables.css";
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -25,7 +25,7 @@
 body {
     font-family: 'GangwonEduSaeeum_OTFMediumA';
     color: #2e363e;
-    background-image: url('/image/테마토토로.jpg');
+    background-image: url('../image/테마토토로.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
