@@ -8,7 +8,15 @@
     align-items: center;
     color: white;
     font-weight: 600;
-    
-    /* position: absolute는 가장가까운 relative를 가진 부모
-    기준으로 움직인다!! */
+}
+.badge__dot {
+    background-color: var(--green);
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
 }
