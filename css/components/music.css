@@ -23,7 +23,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     width: 370px;
-    height: 650px;
+    height: 600px;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     box-sizing: border-box;
@@ -43,7 +43,7 @@ button:hover {
 }
 
 .image-box {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -55,21 +55,9 @@ button:hover {
     height: 100%;
     border-radius: 50%;
 }
-.music-info h1{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-}
-.music-info p{
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.3);
-    margin-top: 10px;
-}
+
 .music-button {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 15px 0px;
 }
 .music-list {
     display: flex;
@@ -109,7 +97,9 @@ button:hover {
 }
 .music-lists:hover {
     scale: 1.1;
-
+}
+.music-lists img{
+    width: 40px;
 }
 .music-lists div{
     padding: 5px;
@@ -125,6 +115,7 @@ button:hover {
 .music-lists:nth-child(2) {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px;
     position: relative;
+    font-size: 22px;
 }
 .headphone{
     position: absolute;
