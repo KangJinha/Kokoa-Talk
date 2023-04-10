@@ -25,11 +25,13 @@
     border: none;
     padding: 18px 0px;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 26px;
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
     opacity: 0.7;
     border-radius: 10px;
+    text-align: center;
 }
 
 #login-form input:not([type="submit"]) {
@@ -46,11 +48,16 @@
  border-color:var(--green);
 }
 
+
 #login-form input[type="submit"] {
     background-color: var(--green);
+    color: white;
     cursor: pointer;
     padding: 15px 0px;
     border-radius: 5px;
+}   
+#login-form input[type="submit"]:hover {
+    scale: 1.01;
 }   
 
 #login-form a {

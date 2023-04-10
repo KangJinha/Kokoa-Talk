@@ -5,7 +5,8 @@
     width: 230px;
     height: 230px;
     background-color: white;
-    box-shadow: rgb(65, 65, 201) 0px 7px 29px 0px;
+    box-shadow: rgb(229, 192, 238) 0px 7px 29px 0px;
+    
 }
 .music-detail__image-box img {
   width: 100%;
@@ -30,10 +31,11 @@
     margin-bottom: 10px;
     font-size: 12px;
     color: var(--green);
+    
 }
 .progress-container {
     margin: 5px 0;
-    background-color: rgb(244, 239, 239);
+    background-color: rgb(249, 249, 249);
     width: 100%;
     border-radius: 5px;
     cursor: pointer;

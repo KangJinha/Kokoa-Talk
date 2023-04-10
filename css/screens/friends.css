@@ -1,13 +1,14 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: var(--green);
     padding: 15px 0px;
     font-size: 18px;
     margin-bottom: 10px;
     margin-top: 10px;
     opacity: 0.8;
     border-radius: 10px;
+    background-image: linear-gradient(315deg, #e8c0ee 0%, #7edffa 74%);
+
 }
 
 #friends-display-link i {
@@ -16,7 +17,7 @@
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
-    height: 523px;
+    height: 71vh;
     overflow-y: scroll;
 }
 .friends-screen::-webkit-scrollbar{
@@ -47,7 +48,10 @@
 /* visibility 마우스에 걸리지않게 빠져버림 */
 
 #splash-screen {
-    background-color: var(--yellow);
+    background-image: url('../../image/테마토토로.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color: var(--green);
     position: absolute;
     height: 100vh;
     width: 100vw;
