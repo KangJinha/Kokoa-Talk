@@ -16,7 +16,7 @@
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
-    height: 523px;
+    height: 75vh;
     overflow-y: scroll;
 }
 .friends-screen::-webkit-scrollbar{
@@ -47,7 +47,10 @@
 /* visibility 마우스에 걸리지않게 빠져버림 */
 
 #splash-screen {
-    background-color: var(--yellow);
+    background-image: url('../../image/테마토토로.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color: var(--green);
     position: absolute;
     height: 100vh;
     width: 100vw;
